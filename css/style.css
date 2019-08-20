@@ -21,7 +21,7 @@ html {
 
 body {
 	background-color: #42192f;
-	max-width: 600px;
+	max-width: calc(500px + 10vw);
 	padding: 6vw 8vw;
 	min-height: 100vh;	
 	border-left: 4px solid #8c1958;
