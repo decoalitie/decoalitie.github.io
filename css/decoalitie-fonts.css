@@ -1,5 +1,9 @@
-/* to define: Libre Franklin, Sporting Grotesque */
-
+@font-face {
+	font-family: 'Syne';
+	font-weight: 700;
+	font-style: normal;
+	src: local('Syne Bold'), local('Syne-Bold'), url('../fonts/Syne-Bold.otf');
+}
 @font-face {
 	font-family: 'Sporting Grotesque';
 	font-weight: 700;
