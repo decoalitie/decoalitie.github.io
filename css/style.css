@@ -79,6 +79,9 @@ a.button:hover {
 	background: var(--red-regular);
 	color: var(--red-white);
 }
+a.button:first-of-type {
+	margin-top: 3rem;
+}
 
 img {
 	max-width: 100%;
