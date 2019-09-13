@@ -16,6 +16,10 @@ body {
 	margin-left: 1rem;
 
 }
+::selection {
+	color: var(--red-white);
+	background-color: var(--red-accent);
+}
 
 html {
 	background-color: var(--red-white-bg);
