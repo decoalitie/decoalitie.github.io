@@ -42,6 +42,18 @@ h1:before {
 	margin-bottom: 1rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.4;
+}
+
+h3 {
+	margin-top: 3rem;
+	margin-bottom: .3rem;
+}
+h3 ~ p {
+	margin-top: 0;
+}
+
 p {
 	text-align: justify;
 	hyphens: auto;
@@ -132,4 +144,28 @@ iframe {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 
+}
+
+.no-hyphen {
+	hyphens: none;
+}
+
+li {
+	margin-bottom: .7rem;
+	text-align: justify;
+	hyphens: auto;
+	width: 95%;
+	padding-left: .7rem;
+}
+ul, ol {
+	margin-top: .7rem;
+}
+li ul,
+li ol {
+	margin-top: .7rem;
+}
+
+p + ul,
+p + ol {
+	margin-top: -1.5rem;
 }
