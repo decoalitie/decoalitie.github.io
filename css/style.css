@@ -4,27 +4,35 @@
 
 }
 
+html {
+	background-color: var(--red-white-bg);
+
+}
+
 body {
+
 	font-family: var(--libre-franklin-stack);
 	color: var(--red-dark);
 	font-size: 18px;
 	line-height: 1.6;
-	margin: 2rem 0;
-	width: 100%;
-	max-width: 40rem;
-	margin-right: 1rem;
-	margin-left: 1rem;
-
 }
 ::selection {
 	color: var(--red-white);
 	background-color: var(--red-accent);
 }
 
-html {
-	background-color: var(--red-white-bg);
+.row {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.container {
+	/*margin: 2rem 0;*/
+	width: 100%;
+	max-width: 40rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
 }
 
 h1 {
@@ -73,6 +81,7 @@ p.call {
 	font-weight: bold;
 }
 
+
 a {
 	color: inherit;
 	text-decoration: none;
@@ -103,6 +112,7 @@ img {
 	max-width: 100%;
 }
 img#logo {
+	margin-top: 2rem;
 	max-width: 130%;
 	margin-left: -26%;
 }
