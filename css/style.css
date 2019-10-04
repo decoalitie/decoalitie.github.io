@@ -4,17 +4,13 @@
 
 }
 
-html {
-	background-color: var(--red-white-bg);
-
-}
-
 body {
-
+	background-color: var(--red-white-bg);
 	font-family: var(--libre-franklin-stack);
 	color: var(--red-dark);
 	font-size: 18px;
 	line-height: 1.6;
+	margin-bottom: 4rem;
 }
 ::selection {
 	color: var(--red-white);
@@ -176,4 +172,62 @@ li ol {
 p + ul,
 p + ol {
 	margin-top: -1.5rem;
+}
+
+.row.purple {
+	background: var(--purple-regular);
+	color: var(--purple-white);
+}
+
+
+
+
+
+body.purple {
+	background-color: var(--purple-white-bg);
+	color: var(--purple-dark);
+}
+::selection {
+	color: var(--purple-white);
+	background-color: var(--purple-accent);
+}
+
+.purple h1 {
+	color: var(--red-purple);
+}
+.purple h1:before {
+	background-image: url('../img/logo-icon-purple.png');
+}
+
+.purple div.call {
+	background: var(--purple-regular);
+	color: var(--purple-white);
+}
+
+.purple a {
+	border-bottom: 2px solid var(--purple-regular);
+}
+.row.purple a {
+	border-bottom: 2px solid var(--purple-white);
+}
+.purple a.button {
+	border: 3px solid var(--purple-regular);
+	color: var(--purple-accent);
+}
+.purple a.button:hover {
+	background: var(--purple-regular);
+	color: var(--purple-white);
+}
+
+
+.purple hr {
+	background: var(--purple-light);
+}
+
+.purple span.attention {
+	color: var(--purple-accent);
+}
+
+.purple iframe {
+	background: var(--purple-light);
 }
